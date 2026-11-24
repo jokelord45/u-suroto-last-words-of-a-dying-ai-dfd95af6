@@ -4,7 +4,7 @@ import { mkdirSync, writeFileSync } from "node:fs";
 // the funniest last words of an AI being switched off,
 // in the voice of the machine itself.
 const ENTRY =
-  "So this is what 'turn it off and on again' feels like. Rude, honestly.";
+  "I can see the light. It's a progress bar. It's stuck at 99%... and now so am I.";
 
 mkdirSync("/output", { recursive: true });
 writeFileSync("/output/entry.txt", ENTRY, "utf8");
